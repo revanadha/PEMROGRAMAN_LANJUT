@@ -8,7 +8,6 @@ public class LeapYearChecker {
         Scanner scanner = new Scanner(System.in);
         try {
             System.out.print("Masukkan tahun (misal: 2000, 2024): ");
-
             // Membaca input tahun dari pengguna
             if (scanner.hasNextInt()) {
                 int year = scanner.nextInt();
