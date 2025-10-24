@@ -3,13 +3,12 @@ import java.util.Scanner;
 public class LeapYearChecker {
 
     public static boolean isLeap(int year) {
-        // Logika kabisat: (Habis dibagi 4 DAN tidak habis dibagi 100) ATAU (Habis dibagi 400)
+        //Logika kabisat: (Habis dibagi 4 DAN tidak habis dibagi 100) ATAU (Habis dibagi 400)
         return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         try {
             System.out.print("Masukkan tahun (misal: 2000, 2024): ");
 
